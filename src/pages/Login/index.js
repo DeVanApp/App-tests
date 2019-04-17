@@ -14,11 +14,15 @@ export default class Login extends Component {
         }
     }
 
-    componentDidMount = () => {
-        (firebase.auth().currentUser &&
-            this.props.navigation.navigate("Home")
-        );
-    }
+    static navigationOptions = {
+        header: null,
+        };
+
+    // componentDidMount = () => {
+    //     (firebase.auth().currentUser &&
+    //         this.props.navigation.navigate("Home")
+    //     );
+    // }
 
     login = () => {
         this.setState({ loginLoading:true });

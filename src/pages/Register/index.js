@@ -15,6 +15,13 @@ export default class Register extends Component {
         }
     }
 
+    static navigationOptions = {
+        title: 'Register',
+        headerStyle:{ backgroundColor: '#222323'},
+        headerTitleStyle:{ color: 'white'},
+        headerTintColor: 'white',
+    };
+
     register = async () => {
         this.setState({ registerLoading:true });
         const { email, password, name } = this.state;
@@ -80,9 +87,6 @@ export default class Register extends Component {
                         <ActivityIndicator size="small" color="#fff" /> 
                     }
                     <Text style={styles.buttonText}>Cadastrar</Text>
-                </TouchableOpacity>
-                <TouchableOpacity disabled={this.state.registerLoading} style={styles.button} onPress={() => this.props.navigation.navigate("Login")}>
-                    <Text style={styles.buttonText}>Voltar</Text>
                 </TouchableOpacity>
             </View>
         );
