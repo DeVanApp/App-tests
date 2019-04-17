@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "857346786006",
+    "firebase_url": "https://dvan-49c44.firebaseio.com",
+    "project_id": "dvan-49c44",
+    "storage_bucket": "dvan-49c44.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:857346786006:android:5ce0d71fac514c3e",
+        "android_client_info": {
+          "package_name": "com.dvan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "857346786006-0lrd02a785s2uujs0dsnoi0jt880u4ab.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCU8mMH1LftxCBYhbi-Gvrn0ZoQFAODE3Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "857346786006-0lrd02a785s2uujs0dsnoi0jt880u4ab.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
